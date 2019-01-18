@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="pl.include.dluznicy.EdytujDlug" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/edytujDlugKsywka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/edytujDlugKwota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kwota" />
+
+        <EditText
+            android:id="@+id/edytujDlugKwotaEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/edytujDlugDataPozyczki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data pożyczki" />
+
+        <EditText
+            android:id="@+id/edytujDlugDataPozyczkiEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:onClick="wybierzDatePozyczki" />
+
+        <TextView
+            android:id="@+id/edytujDlugDataZwrotu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data zwrotu" />
+
+        <EditText
+            android:id="@+id/edytujDlugDataZwrotuEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:onClick="wybierzDateZwrotu" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dodaj przypomnienie w kalendarzu"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/edytujDlugNotka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notatka" />
+
+        <EditText
+            android:id="@+id/edytujDlugNotkaEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/edytujDlugZapisz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="zapisz"
+            android:text="Zapisz" />
+
+        <Button
+            android:id="@+id/usunDlugButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usuń dług" 
+            android:onClick="usunDlug"/>
+    </LinearLayout>
+
+</RelativeLayout>

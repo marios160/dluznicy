@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dluznicy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dluznicy_lista">Lista</string>
+    <string name="nazwa">Hajs musi sie zgadzac!</string>
+    <string name="saldo">Saldo:  </string>
+    <string name="saldonum">0.0</string>
+    <string name="dluznicy">Dluznicy</string>
+    <string name="wierzyciele">Wierzyciele</string>
+    <string name="info">Info</string>
+    <string name="title_activity_main_activitys">Hajs Musi Siś Zgadzać</string>
+    <string name="nowy_dluznik">Nowy dluznik</string>
+    <string name="title_activity_dodaj_dluznika">Dodaj Profil</string>
+    <string name="ksywka">ksywka</string>
+    <string name="nazwisko">Imie i nazwisko</string>
+    <string name="telefon">Telefon</string>
+    <string name="adres">adres</string>
+    <string name="dodaj">Dodaj</string>
+    <string name="kwota">Kwota</string>
+    <string name="email">Email</string>
+    <string name="zapisz">Zapisz</string>
+    <string name="dodajdlug">Dodaj Dlug</string>
+    <string name="title_activity_lista_dlugow">Lista Dlugow</string>
+    <string name="edytujdluznika">Edytuj profil</string>
+    <string name="title_activity_edytuj_dluznika">Edytuj Profil</string>
+    <string name="title_activity_dodaj_dlug">Dodaj Dlug</string>
+    <string name="title_activity_edytuj_dlug">Edytuj Dlug</string>
+    <string name="title_activity_info">Info</string>
+
+</resources>
